@@ -4,19 +4,20 @@ body {
 }
 
 .project-grid {
-  /* display: grid;
-  grid-template-columns: 400px, 400px, 1fr; */
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
 }
+
 .project {
   position: relative;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .project img {
   width: 100%;
   object-fit: cover;
   height: 100%;
-  border-radius: 20%;
+  border-radius: 5%;
 }
 
 .project .overlay {
