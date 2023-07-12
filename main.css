@@ -3,6 +3,16 @@ body {
   font-family: 'Didact Gothic', sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .right img {
+  width: 75px;
+  height: 75px;
+}
+
 .project-grid {
   display: grid;
   grid-template-areas:
