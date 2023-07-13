@@ -18,16 +18,15 @@ body {
 
 .navbar .left {
   font-size: 50px;
-  font-weight:bold;
+  font-weight: bold;
   color: #d9376e;
- 
+  text-shadow: 0 -3.5px #ff8e3c;
 }
 
 .navbar .right {
   width: 200px;
   display: flex;
-  justify-content: space-around
-  align-items: center;
+  justify-content: space-around;
 }
 
 .navbar .right img {
