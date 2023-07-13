@@ -25,13 +25,25 @@ body {
 .navbar .right {
   width: 140px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .navbar .right img {
   width: 80px;
   height: 80px;
+}
+
+.navbar .bar {
+  background-color: #0d0d0d;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.navbar .hamburger {
+  display: none;
 }
 
 .project-grid {
@@ -123,6 +135,30 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .project-grid {
+    margin-top: 100px;
+  }
+  .navbar {
+    padding: 16px 24px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #eff0f3;
+    width: 100%;
+  }
+  .navbar .right {
+    display: none;
+  }
+
+  .navbar .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .project-grid {
     grid-template-areas:
       'project-1 '
