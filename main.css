@@ -38,7 +38,9 @@ body {
   height: 80px;
 }
 
-.navbar .bar {
+.navbar .bar1,
+.bar2,
+.bar3 {
   background-color: #0d0d0d;
   height: 4px;
   width: 36px;
@@ -184,6 +186,18 @@ body {
   .project .overlay {
     font-size: 34px;
   }
+}
+
+.animateBar1 {
+  animation: rotateBar1 1s;
+}
+
+.animateBar2 {
+  animation: rotateBar2 1s;
+}
+
+.animateBar3 {
+  animation: rotateBar3 1s;
 }
 
 @keyframes rotateBar1 {
