@@ -38,7 +38,7 @@ body {
   height: 80px;
 }
 
-.navbar .bar1,
+.bar1,
 .bar2,
 .bar3 {
   background-color: #0d0d0d;
@@ -193,7 +193,7 @@ body {
 }
 
 .animateBar2 {
-  animation: rotateBar2 1s;
+  animation: fadeBar2 1s;
 }
 
 .animateBar3 {
@@ -209,22 +209,22 @@ body {
   }
 }
 
-@keyframes changeBar2 {
+@keyframes fadeBar2 {
   from {
     transform: scaleX(1);
     opacity: 1;
   }
   to {
     transform: scale(0);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
-@keyframes changeBar3 {
+@keyframes rotateBar3 {
   from {
     transform: rotate(0);
   }
   to {
-    transform: rotate(-45deg) translate (4px, -10px);
+    transform: rotate(-45deg) translate(4px, -10px);
   }
 }
