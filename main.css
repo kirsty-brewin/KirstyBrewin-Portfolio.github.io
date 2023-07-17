@@ -52,6 +52,10 @@ body {
   display: none;
 }
 
+.navbar .hamburger:hover {
+  cursor: pointer;
+}
+
 .mobileNav {
   width: 80px;
   background-color: #d9376e;
@@ -63,8 +67,13 @@ body {
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 0;
+  right: -160px;
   padding: 16px;
+  transition: transform 0.3s;
+}
+
+.openDrawer {
+  transform: translateX(-160px);
 }
 
 .mobileNav a {
@@ -77,10 +86,6 @@ body {
 .mobileNav a:hover {
   text-decoration: underline;
 }
-/* .mobileNav img {
-  width: 70px;
-  height: 70px;
-} */
 
 .project-grid {
   display: grid;
@@ -218,15 +223,15 @@ body {
 }
 
 .animateBar1 {
-  animation: rotateBar1 1s;
+  animation: rotateBar1 0.5s;
 }
 
 .animateBar2 {
-  animation: fadeBar2 1s;
+  animation: fadeBar2 0.5s;
 }
 
 .animateBar3 {
-  animation: rotateBar3 1s;
+  animation: rotateBar3 0.5s;
 }
 
 @keyframes rotateBar1 {
