@@ -29,13 +29,22 @@ body {
 .navbar .right {
   width: 140px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.navbar .right img {
-  width: 90px;
-  height: 90px;
+.navbar .right a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  color: black;
+  font-size: 22px;
+}
+
+.navbar .right a:hover {
+  color: #d9376e;
 }
 
 .bar1,
@@ -224,14 +233,17 @@ body {
 
 .animateBar1 {
   animation: rotateBar1 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .animateBar2 {
   animation: fadeBar2 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .animateBar3 {
   animation: rotateBar3 0.5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes rotateBar1 {
