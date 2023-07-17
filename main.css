@@ -20,7 +20,7 @@ body {
 
 .navbar .left {
   font-family: 'Anton', sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   font-size: 40px;
   color: #d9376e;
   font-weight: bold;
@@ -34,8 +34,8 @@ body {
 }
 
 .navbar .right img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 
 .bar1,
@@ -51,6 +51,36 @@ body {
 .navbar .hamburger {
   display: none;
 }
+
+.mobileNav {
+  width: 80px;
+  background-color: #d9376e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  padding: 16px;
+}
+
+.mobileNav a {
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 16px 0;
+}
+
+.mobileNav a:hover {
+  text-decoration: underline;
+}
+/* .mobileNav img {
+  width: 70px;
+  height: 70px;
+} */
 
 .project-grid {
   display: grid;
@@ -161,7 +191,6 @@ body {
 
   .navbar .left {
     font-size: 35px;
-    letter-spacing: 5px;
   }
   .navbar .right {
     display: none;
