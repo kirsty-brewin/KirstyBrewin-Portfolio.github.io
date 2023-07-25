@@ -184,13 +184,13 @@ body {
 }
 
 .about-content h1 {
-  padding: 0 40px;
+  margin: 20px 50px;
   font-size: 1.7rem;
-  color: #2a2a2a;
+  color: #0d0d0d;
 }
 
 .about-content h2 {
-  padding: 0 40px;
+  margin: 20px 50px;
   font-size: 1.3rem;
   font-style: italic;
   color: #ff8e3c;
@@ -233,9 +233,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
   .about-container {
-    margin-top: 100px;
+    margin-top: 180px;
   }
 
   .about-container .about-content h1 {
@@ -255,7 +255,7 @@ body {
   }
 
   .project-grid {
-    margin-top: 100px;
+    margin-top: 180px;
   }
   .navbar {
     padding: 16px 24px;
@@ -311,7 +311,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-@keyframes rotateBar1 {
+. @keyframes rotateBar1 {
   from {
     transform: rotate(0);
   }
