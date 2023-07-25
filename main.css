@@ -21,7 +21,7 @@ body {
 .navbar .left a {
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #d9376e;
   font-weight: bold;
   text-decoration: none;
@@ -42,12 +42,16 @@ body {
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
   color: #2a2a2a;
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 
 .navbar .right a:hover {
   color: #d9376e;
 }
+
+/* .navbar .right a:active {
+  color: #d9376e;
+} */
 
 .bar1,
 .bar2,
@@ -149,7 +153,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: 36px;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #2a2a2a;
   letter-spacing: 2px;
@@ -167,6 +171,44 @@ body {
   cursor: pointer;
 }
 
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: white;
+  font-family: 'Cabin', sans-serif;
+  border-radius: 5%;
+}
+
+.about-content h1 {
+  padding: 0 40px;
+  font-size: 1.7rem;
+  color: #2a2a2a;
+}
+
+.about-content h2 {
+  padding: 0 40px;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #ff8e3c;
+}
+
+.about-container .about-content p {
+  color: #2a2a2a;
+  margin: 20px 50px;
+  font-size: 1.1rem;
+}
+
+.about-container .about-content .comic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+  margin: 20px 0;
+}
+
 .footer {
   font-family: 'Cabin', sans-serif;
   color: #2a2a2a;
@@ -176,7 +218,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
   .navbar .left {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .container {
@@ -192,6 +234,26 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .about-container {
+    margin-top: 100px;
+  }
+
+  .about-container .about-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .about-content h2 {
+    padding: 0 40px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #ff8e3c;
+  }
+  .about-container .about-content p {
+    color: #2a2a2a;
+    margin: 10px 30px;
+    font-size: 1rem;
+  }
+
   .project-grid {
     margin-top: 100px;
   }
@@ -207,7 +269,7 @@ body {
   }
 
   .navbar .left {
-    font-size: 35px;
+    font-size: 2.2rem;
   }
   .navbar .right {
     display: none;
@@ -230,7 +292,7 @@ body {
       'project-6 ';
   }
   .project .overlay {
-    font-size: 34px;
+    font-size: 2rem;
   }
 }
 
