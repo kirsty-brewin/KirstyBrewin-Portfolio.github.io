@@ -311,7 +311,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-. @keyframes rotateBar1 {
+@keyframes rotateBar1 {
   from {
     transform: rotate(0);
   }
