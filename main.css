@@ -210,9 +210,12 @@ body {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   font-family: 'Cabin', sans-serif;
   color: #2a2a2a;
   text-align: center;
+  margin-top: 100px;
 }
 
 .contact-container {
@@ -266,6 +269,14 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
+  .contact-container {
+    margin-top: 180px;
+  }
+
+  .contact-container .contact-content h1 {
+    font-size: 1.4rem;
+  }
+
   .about-container {
     margin-top: 180px;
   }
