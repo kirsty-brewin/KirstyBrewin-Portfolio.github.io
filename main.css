@@ -28,7 +28,7 @@ body {
 }
 
 .navbar .right {
-  width: 340px;
+  width: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,7 +198,7 @@ body {
 
 .about-container .about-content p {
   color: #2a2a2a;
-  margin: 20px 50px;
+  margin: 18px 45px;
   font-size: 1.1rem;
 }
 
